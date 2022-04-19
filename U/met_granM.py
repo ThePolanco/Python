@@ -17,7 +17,7 @@ F_resdes = [-6,4] #Declaramos los resultados de las restricciones
 F_igu = [[3,1]] #Declaramos los valores de la funcion con =
 F_resigu = [3] #Declaramos el resultado de la funcion con =
 
-res = linprog(z, F_des, F_resdes, F_igu, F_resigu, bounds=(0,None))
+res = linprog(z, F_des, F_resdes, F_igu, F_resigu, bounds = (0,None))
 
 print(res)
 print("----------------------------------------------------------------------------------------------------------")
