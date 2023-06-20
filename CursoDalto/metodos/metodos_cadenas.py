@@ -24,5 +24,3 @@ resultado = cadena1.replace("la","lo") #Reemplaza una parte de la cadena.
 resultado = cadena1.split(" ") #Separar cadenas con la cadena que le demos.
 
 print(resultado)
-
-#2:12:00
