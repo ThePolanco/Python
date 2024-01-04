@@ -27,3 +27,4 @@ estatura = float(input("Introduce la estatura en metros: "))
 imc = round(peso / estatura ** 2,2)
 print ("El indice de masa corporal es: " , imc)
 """
+
