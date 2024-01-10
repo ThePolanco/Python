@@ -8,3 +8,5 @@ except ZeroDivisionError:
     print('Error: No se puede calcular el recíproco de 0.')
 except Exception as e:
     print('Ocurrió un error no manejado:', e)
+except:
+    print('Ha sucedido algo extraño, ¡lo siento!')
