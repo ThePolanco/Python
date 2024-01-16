@@ -28,3 +28,7 @@ imc = round(peso / estatura ** 2,2)
 print ("El indice de masa corporal es: " , imc)
 """
 
+x = float(input())
+y = float(input())
+print(y ** (1 / x))
+ 
